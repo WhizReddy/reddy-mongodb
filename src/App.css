@@ -1,0 +1,95 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: var(--nav-bg-color);
+  z-index: 1000;
+  padding-left: 1.5rem; /* Add padding to match the content */
+  padding-right: 1.5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem; /* Adjust this based on the height of your header (Tabs + Breadcrumbs) */
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.p-6 {
+  padding: 1.5rem; /* Ensures padding for the scrollable area */
+}
+
+/* Dark mode variables */
+.dark {
+  --bg-color: #272626da;
+  --text-color: #ffffff;
+  --nav-bg-color: #333;
+  --scrollbar-bg-color: #1c3a3e;
+  --scrollbar-thumb-color: #4CAF50;
+}
+
+/* Light mode variables */
+.light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --nav-bg-color: #f0f0f0;
+  --scrollbar-bg-color: #f0f0f0;
+  --scrollbar-thumb-color: #888;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Scrollbar styling for WebKit browsers (Chrome, Safari) */
+
+/* Base scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-bg-color);
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  border-radius: 10px;
+  border: 2px solid var(--scrollbar-bg-color); /* Matching the track */
+}
+
+/* Scrollbar hover effect in light mode */
+.scrollbar-thumb:hover {
+  background-color: #555; /* Darker thumb when hovered in light mode */
+}
+
+/* Scrollbar hover effect in dark mode */
+.dark .scrollbar-thumb:hover {
+  background-color: #34813B; /* Slightly darker green when hovered in dark mode */
+}
+
+/* For Firefox scrollbars */
+body.light {
+  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-bg-color);
+  scrollbar-width: thin;
+}
+
+body.dark {
+  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-bg-color);
+  scrollbar-width: thin;
+}
+
