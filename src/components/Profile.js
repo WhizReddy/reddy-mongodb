@@ -46,13 +46,13 @@ export default function Profile() {
               &nbsp;&nbsp;"Experience": [<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&#123;<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Title": "Junior Backend Developer",<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Company": "XYZ Company",<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Company": "Interships",<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Duration": "2023 - Present"<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&#125;,<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&#123;<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Title": "Backend Developer",<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Company": "ABC Corp",<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Duration": "2018 - 2021"<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Title": "Junior Frontend Developer",<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Company": "Interships",<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Duration": "2023 - Present"<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&#125;<br/>
               &nbsp;&nbsp;]<br/>
               &#125;
@@ -65,9 +65,9 @@ export default function Profile() {
               &#123; <br/>
               &nbsp;&nbsp;"Education": [<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&#123;<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Degree": "Bachelor's in Computer Science",<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"University": "University Name",<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Year": "2014 - 2018"<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Degree": "Bachelor's in Business informatics",<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"University": "University of Tirana",<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Year": "2023 - 2026"<br/>
               &nbsp;&nbsp;&nbsp;&nbsp;&#125;<br/>
               &nbsp;&nbsp;]<br/>
               &#125;
@@ -79,8 +79,8 @@ export default function Profile() {
             <pre className={`text-sm font-mono ${darkMode ? 'text-gray-300' : 'text-gray-800'}`}>
               &#123; <br/>
               &nbsp;&nbsp;"Contact": &#123;<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;"Email": "your.email@example.com",<br/>
-              &nbsp;&nbsp;&nbsp;&nbsp;"Phone": "(123) 456-7890"<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;"Email": "rediballa1@gmail.com",<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;"Phone": " +355 68 24 16 975 "<br/>
               &nbsp;&nbsp;&#125;<br/>
               &#125;
             </pre>
