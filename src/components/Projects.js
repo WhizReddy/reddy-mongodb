@@ -8,7 +8,7 @@ export default function Projects() {
     {
       title: 'HR-software',
       description: 'Manage your employees with this HR software. This project is built with React and NestJS.',
-      demoLink: 'http://project1.example.com',
+      demoLink: 'https://hrrrr-77695.web.app/',
       repoLink: 'https://github.com/WhizReddy',
     },
     {
